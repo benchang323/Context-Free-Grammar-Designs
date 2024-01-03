@@ -1,0 +1,101 @@
+#   Noun = Noun
+#   PP = prepositional phrase
+#   PNoun = proper noun
+#   S  = sentence
+#   Prep = preposition
+#   Adj = adjective
+#   Aux = auxiliary verb
+#   VP = verb phrase
+#   Det = determiner (sometimes called "article")
+#   NP = noun phrase
+#   Conj = conjunction
+#   EVerb = ending verbs ("he sighed.", "she thought.", etc.)
+#   PP = prepositional phrase
+#   QP = question phrase
+#   BV = base form verb
+
+2	Noun	Adj Noun
+1	Noun	president
+1	Noun	sandwich
+1	Noun	floor
+1	Noun	proposal
+1	Noun	pickle
+1	Noun	chief of staff
+1	Noun	desk
+
+1	PNoun	Sally
+1	PNoun	it
+
+1	PP	Prep NP
+
+2	Det	a
+2	Det	the
+1	Det	every
+
+1	Conj	and
+
+4	NP	Det Noun
+3	NP	NP PP
+3	NP	NP Rel 
+2	NP	NP Conj NP 
+1	NP	PNoun
+
+1	Rel	that VP 
+2	Rel	that NP VP 
+
+1	Verb	pickled 
+1	Verb	wanted 
+1	Verb	kissed
+1	Verb	ate
+1	Verb	understood 
+1	Verb	worked
+
+1	EVerb	perplexed
+1	EVerb	sighed
+1	EVerb	thought
+1	EVerb	ate 
+
+1	Prep	with
+1	Prep	under
+1	Prep	on
+1	Prep	in
+
+1	Adj	fine
+1	Adj	perplexed
+1	Adj	pickled
+1	Adj	delicious
+1	Adj	very Adj
+
+1	Aux	will 
+1	Aux	is 
+1	Aux	did 
+1	Aux	are 
+
+3	ROOT	S .
+2	ROOT	S !
+1	ROOT	is it true that S ?  
+1	ROOT	QP ? 
+
+4	VP	Verb NP
+4	VP	EVerb PP
+3	VP	EVerb
+1	VP	Verb PP
+1	VP	Verb Conj Verb NP
+1	VP	BV NP 
+
+
+4	S	NP VP
+3	S	NP VP Conj S 
+2	S	NP thought that S 
+1	S	that S perplexed NP  
+1	S	it perplexed NP that S 
+
+2	QP	Aux NP VP 
+
+1	BV	eat 
+1	BV	kiss 
+1	BV	understand 
+1	BV	want 
+1	BV	work 
+
+# REMOVED COMPLEMENTS HERE
